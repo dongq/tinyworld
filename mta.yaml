@@ -22,15 +22,7 @@ modules:
          url: ${default-url}
 
 
- - name: tinyui
-   type: html5
-   path: tinyui
-   requires:
-    - name: tinyjs_api
-      group: destinations
-      properties:
-        name: tinyjs_be
-        url: ~{url}
+ 
         
 resources:
  - name: hdi_tinydb
